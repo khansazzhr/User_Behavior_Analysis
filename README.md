@@ -20,10 +20,32 @@ This project provides SQL scripts to manage and analyze user, credit card, and t
    Columns include:
    - `id` (primary key)
    - `client_id`
-    brand, type, card number, expiration, CVV, chip status, credit limit, issuance, and fraud risk.  
+   - `card_brand`
+   - `card_type`
+   - `card_number`
+   - `expires`
+   - `cvv`
+   - `has_chip`
+   - `num_cards_issued`
+   - `credit_limit`
+   - `acct_open_date`
+   - `year_pin_last_changed`
+   - `card_on_dark_web`
 
 5. **transaction_data**  
-   Stores transaction records: date, client, card, merchant, transaction amount, payment method, and errors.
+   Stores information about transactions.
+   - `id` (primary key)
+   - `date`
+   - `client_id`
+   - `card_id`
+   - `amount`
+   - `use_chip`
+   - `merchant_id`
+   - `merchant_city`
+   - `merchant_state`
+   - `zip`
+   - `mcc`
+   - `errors`
 
 ## Data Cleaning and Transformation
 
