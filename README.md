@@ -10,10 +10,19 @@ This project provides SQL scripts to manage and analyze user, credit card, and t
    Stores information about users.
    Columns include:
    - `id` (primary key)
-   - `current_age`, `retirement_Age`, `birth_year`, `birth_month`
-   - `gender`, `address`, `latitude`, `longitude`
-   - `per_capita_income`, `yearly_income`, `total_debt`
-   - `credit_score`, `num_credit_cards` 
+   - `current_age`
+   - `retirement_Age`
+   - `birth_year`
+   - `birth_month`
+   - `gender`
+   -  `address`
+   -  `latitude`
+   -   `longitude`
+   - `per_capita_income`
+   -  `yearly_income`
+   -   `total_debt`
+   - `credit_score`
+   -  `num_credit_cards` 
 
 3. **cards_data**  
    Stores information about credit cards.
