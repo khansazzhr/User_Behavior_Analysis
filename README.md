@@ -246,4 +246,7 @@ order by year;
 - Ensure that foreign key references are consistent:
  (`cards_data.client_id → users_data.id` and `transaction_data.card_id → cards_data.id`).
 
+## Link to Dashboard
+https://lookerstudio.google.com/reporting/9607329c-64b3-4940-bf20-5e49d6607c3c
+
 
